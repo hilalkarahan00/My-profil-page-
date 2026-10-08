@@ -1,0 +1,88 @@
+       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profil Page H K</title>
+</head>
+<body>
+    <header>
+        <h1>Hilal</h1>
+        <p>Management Information System</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#courses">My Courses</a></li>
+            <li><a href="#contact">My Contacts</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2>About me heading</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/6997/6997670.png" alt="Profile picture" width="150" height="150">
+            
+            <p>I am a second year student in MIS. I am interested in photography and music. I enjoy learning new things and improving my skills.</p>
+        </section>
+
+        <!-- COURSES SECTION -->
+        <section id="courses">
+            <h2>My courses heading</h2>
+            <table>
+                <caption>Course Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Hours</th>
+                        <th>Courses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>12-18</td>
+                        <td>IMS201 and IMS261</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>10-16</td>
+                        <td>IMS259 and IMS209</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>9-12</td>
+                        <td>IMS207</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2>My contacts heading</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br><br>
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic">
+                    <option value="school">School</option>
+                    <option value="project">Project</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                <br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
